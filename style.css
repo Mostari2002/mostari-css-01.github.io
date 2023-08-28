@@ -226,27 +226,27 @@ footer {
 
 
 
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
 
     .container {
-      max-width: 900px;
-      padding-inline: 1rem;
+      max-width: 100%;
+      padding-inline: 2rem;
     }
     .container2 {
-      max-width: 800px;
-      padding-inline: 2rem;
+      max-width: 100%;
+      padding-inline: 4rem;
     }
     }
 
     @media (min-width:720px) and (max-width: 1024px) and (orientation:landscape) {
 
       .container {
-        max-width: 1000px;
-        padding-inline: 4rem;
+        width: calc(100% - 2rem); 
+        padding-inline: 3rem;
       }
       .container2 {
-        max-width: 950px;
-        padding-inline: 2rem;
+        width: calc(100% - 2rem); 
+        padding-inline: 4rem;
       }
       }
 
