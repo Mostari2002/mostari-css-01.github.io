@@ -224,14 +224,16 @@ footer {
   }
 
 
+
+
   @media (max-width: 992px) {
 
     .container {
-      max-width: 920px;
+      max-width: 1000px;
       padding-inline: 1rem;
     }
     .container2 {
-      max-width: 900px;
+      max-width: 960px;
       padding-inline: 2rem;
     }
     }
@@ -239,15 +241,14 @@ footer {
     @media (min-width:720px) and (max-width: 1024px) and (orientation:landscape) {
 
       .container {
-        max-width: 1024px;
+        max-width: 1060px;
         padding-inline: 4rem;
       }
       .container2 {
-        max-width: 1024px;
+        max-width: 1060px;
         padding-inline: 2rem;
       }
       }
-
 
 
 section {
