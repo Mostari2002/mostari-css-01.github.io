@@ -133,7 +133,7 @@ body>footer {
   width: 100%;
   margin-inline: auto;
   text-align: justify;
-  padding-inline: 1rem;
+ padding:0 4rem;
 
 }
 
@@ -530,7 +530,7 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
 
 
 
-@media only screen (max-width: 992px) {
+@media (max-width: 992px) {
 
   .container {
    width: 100%;
@@ -544,7 +544,7 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
   }
   }
 
-  @media only screen (min-width:992px) and (max-width: 1600px) and (orientation:landscape) {
+  @media (min-width:992px) and (max-width: 1600px) and (orientation:landscape) {
 
     .container {
       width: 100%;
@@ -557,7 +557,6 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
       margin: 0 auto;
     }
   }
-
 
 
 
