@@ -3,89 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mostari css.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mostari.css</title>
 </head>
 
 <body>
+    <br>
 
-    <div>
-        <nav class="container1 border">
-            <ul>
-                <li><a href="#" class="logo">MOSTARI.CSS</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+    <main class="container">
 
-    </div>
+        <section>
+            <div class="hero">
+                <h1 class="title1 ">Mostari.css</h1>
 
+                <div class="row  container2 col-center">
 
+                    <div class="col-3">
+                        <h5>Lightweight, minimalistic, and responsive framework with basic default styles. copy the css
+                            from
+                            my <a href="#">github</a> account until I upload a cdn.</h5>
+                    </div>
+                    <div class="col-3 push-1">
+                        <h5> You can use it as a reset or normalizer as it is, or make use of the grid, styles, and
+                            prebuilt
+                            components through the offered classes.</h5>
+                    </div>
 
+                    <div class="col-12 center">
+                        <h6>I'm too lazy to write the full documentation thingy. figure it out yourself till I feel
+                            like helping
+                            lmao.</h6>
+                    </div>
 
-
-    <main>
-
-        <div class="hero">
-            <h1 class="title1 ">Mostari.css</h1>
-
-            <div class="row  container1 col-between">
-
-                <div class="col-5 txt-left">
-                    <h5>Lightweight and responsive framework with basic default styles. copy the css from my <a
-                            href="#">github</a> until I upload a cdn.</h5>
                 </div>
-                <div class="col-5 txt-left">
-                    <h5> You can use it as a reset / normalizer as it is, or make use of the grid, styles, prebuilt
-                        components through the offered classes.</h5>
-                </div>
+            </div>
+        </section>
 
+
+        <section>
+            <div class="container center">
+
+
+                <h6>your content should be automatically centered if you use html5 semantics (header, main,
+                    footer), but you can still use our container classes (.container and .container2) for a better
+                    layout.
+                </h6>
 
             </div>
-        </div>
+        </section>
 
+<section>
+        <div class="container">
+            <h1 class="center">Typography</h1>
 
-        <div class="container1 center primary-font">
-            <div>I'm too lazy to write the full documentation thingy. figure it out yourself till I feel like helping
-                lmao.
-            </div>
-            <hr>
-
-            <div>your content should be automatically centered if you use html5 semantics (header, main,
-                footer), but you can still use our .container1 class for a better layout.
-            </div>
-
-        </div>
-
-
-        <div class="container1 primary-font center">
-            <div>Typography
-            </div>
-        </div>
-
-        <div class="container1 primary-font center">
-            <div>Titles
-            </div>
-        </div>
-
-        <div class="container1 border">
             <h2 class="title1">title1</h2>
             <h2 class="title2">title2</h2>
             <h2 class="title3">title3</h2>
-        </div>
 
-
-        <div class="container1 center primary-font">
-            <div> h tags
-            </div>
-        </div>
-
-        <div class="container1 border">
             <h1>h1 typography</h1>
             <h2>h2 typography</h2>
             <h3>h3 typography</h3>
@@ -93,117 +68,105 @@
             <h5>h5 typography</h5>
             <h6>h6 typography</h6>
         </div>
-
-
-
-        <div class="container1 center primary-font">
-            <div>The grid system: divs called "col" inside a div called "row".
-                <br>
-                <hr>
+    </section>
+<section>
+        <div class="container">
+            <h1 class="center">Grid</h1>
+            <h6 class="center">The grid system: divs called "col" inside a div called "row".
                 the sum of all col divs inside one row should be equal to 12 or less.
+            </h6>
+        </section>
+        <section>
+            <div class="row ex1 container2">
+                <div class="col-12 ex">col-12</div>
+                <div class="col-11 ex">col-11</div>
+                <div class="col-1 ex">col-1</div>
+                <div class="col-10 ex">col-10</div>
+                <div class="col-2 ex">col-2</div>
+                <div class="col-9 ex">col-9</div>
+                <div class="col-3 ex">col-3</div>
+                <div class="col-8 ex">col-8</div>
+                <div class="col-4 ex">col-4</div>
+                <div class="col-7 ex">col-7</div>
+                <div class="col-5 ex">col-5</div>
+                <div class="col-6 ex">col-6</div>
+                <div class="col-6 ex">col-6</div>
             </div>
         </div>
-
-        <div class="container1 border">
-
-            <div class="row">
-                <div class="col-12">col-12</div>
-                <div class="col-11">col-11</div>
-                <div class="col-1">col-1</div>
-                <div class="col-10">col-10</div>
-                <div class="col-2">col-2</div>
-                <div class="col-9">col-9</div>
-                <div class="col-3">col-3</div>
-                <div class="col-8">col-8</div>
-                <div class="col-4">col-4</div>
-                <div class="col-7">col-7</div>
-                <div class="col-5">col-5</div>
-                <div class="col-6">col-6</div>
-                <div class="col-6">col-6</div>
-            </div>
-
         </div>
+    </section>
+
+        <section>
+        <div class="container">
+            <h6 class="center">The text is centered by default inside the grid, and aligned to the left without it.
+
+                The following classes should be added to the row h6.
+
+                The used code and concrete examples will be added later
+            </h6>
+        </section>
+        <section>
+            <div class="container2">
+                <div class="row bord">
+                    <div class="col-4 ex">cols are aligned to the left by deafult (col-4)</div>
+                    <div class="col-6 ex">default (col-6)</div>
+                </div>
+
+                <div class="row col-right bord">
+                    <div class="col-4 ex">col-right</div>
+                    <div class="col-6 ex">col-right</div>
+                </div>
 
 
-        <div class="container1 center primary-font">
-            <div>text is centered by default inside the grid, and aligned to the left without it.
-                <br>
-                <hr>
-                the following classes should be added to the row div.
-                <br>
-                <hr>
-                the used code and concrete examples will be added later
-            </div>
-        </div>
+                <div class="row col-center bord">
+                    <div class="col-4 ex">col-center</div>
+                    <div class="col-6 ex">col-center</div>
+                </div>
 
-        <div class="container1 border">
+                <div class="row col-around bord">
+                    <div class="col-4 ex">col-around</div>
+                    <div class="col-6 ex">col-around</div>
+                </div>
 
-            <div class="row ">
-                <div class="col-4 ">cols are aligned to the left by deafult in the grid (col-4)</div>
-                <div class="col-6 ">default (col-6)</div>
-            </div>
+                <div class="row col-between bord">
+                    <div class="col-4 ex">col-between</div>
+                    <div class="col-6 ex">col-between</div>
 
-            <div class="row col-right ">
-                <div class="col-4 ">col-right</div>
-                <div class="col-6 ">col-right</div>
-            </div>
-
-
-            <div class="row col-center">
-                <div class="col-4 ">col-center</div>
-                <div class="col-6 ">col-center</div>
-            </div>
-
-            <div class="row col-around">
-                <div class="col-4">col-around</div>
-                <div class="col-6">col-around</div>
-
-            </div>
-
-            <div class="row col-between">
-                <div class="col-4">col-between</div>
-                <div class="col-6">col-between</div>
-
-            </div>
-
-
-
-        </div>
-
-        <div class="container1 center primary-font">
-            <div>to align the text inside a column, the following classes should be added to the col div.
+                </div>
             </div>
         </div>
+</section>
 
-        <div class="container1 border">
-            <div class="row">
-                <div class="col-6 txt-left">txt-left</div>
+<section>
+        <div class="container">
+            <h6 class="center">to align the text inside a column, the following classes should be added to the col div.
+            </h6>
+        </section>
+        <section>
+            <div class="container2 bord">
+                <div class="row">
+                    <div class="col-6  ex">default</div>
 
-                <div class="col-6 txt-right">txt-right</div>
+                    <div class="col-6 right ex">right</div>
 
-                <div class="col-12 txt-mid">txt-mid</div>
+                    <div class="col-12 mid ex">mid</div>
+                </div>
             </div>
-
         </div>
+    </section>
 
-        <div class="container1 center primary-font">
-            <div>to align the text outside the grid, the following classes should be added to the normal div or
-                tag.
-            </div>
-        </div>
+<section>
+<div class="container2 center">
+    <h6>stay tuned...I guess XD</h6>
 
-        <div class="container1 border">
-            <div>the text is aligned to the left by default</div>
+</div>
 
-            <div class="right">right</div>
-
-            <div class="mid">mid</div>
-        </div>
+</section>
 
 
     </main>
 
-    <footer class="center">
+    <footer>
         built by Mostari Lagha
 
     </footer>
