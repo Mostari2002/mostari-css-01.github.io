@@ -236,7 +236,24 @@ footer {
   
 
     }
- 
+
+
+    @media (min-width:720px) and (max-width: 1024px) and (orientation:landscape) {
+
+      .container {
+        max-width: 510px;
+        padding-inline: 1rem;
+      }
+      .container2 {
+        max-width: 510px;
+        padding-inline: 2rem;
+      }
+    
+  
+      }
+
+
+
 
 section {
   margin-block: 2rem;
