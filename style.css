@@ -126,6 +126,7 @@ body {
   font-weight: 400;
   color: hsl(205, 20%, 32%);
   padding:0 2rem;
+  justify-content: center;
 }
 
 body>header,
