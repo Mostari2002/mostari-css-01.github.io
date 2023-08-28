@@ -226,14 +226,14 @@ footer {
 
 
 
-@media (max-width: 992px) {
+ @media (max-width: 992px) {
 
     .container {
-      max-width: 100%;
+      max-width: 80%;
       padding-inline: 2rem;
     }
     .container2 {
-      max-width: 100%;
+      max-width: 80%;
       padding-inline: 4rem;
     }
     }
