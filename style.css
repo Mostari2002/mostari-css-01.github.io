@@ -665,7 +665,7 @@ nav ul:first-child > li {
   padding: 0.8rem .6rem;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 992px) {
   nav ul:first-child{text-align: center;}
   nav ul:first-child > li:first-child:after { content: " \2261";}
   nav ul:first-child > li:not(:first-child):not(.sticky) { display: none; }
@@ -674,7 +674,7 @@ nav ul:first-child > li {
 
 /* navbar style2 */
 
-@media (max-width: 40rem) {
+@media (max-width: 992px) {
 nav {
   user-select: none;
   color: #415462;
@@ -694,16 +694,16 @@ nav {
     user-select: none;
     color: #415462;
   }
+ 
    nav .col-1{
     flex: 1 0 0%;
     text-align: center;
-   margin-top: 0;
+  
    user-select: none;
    color: #4d606d;
    }
 
 }
-
 
 
 
