@@ -689,3 +689,23 @@ nav {
 }
 
 
+@media (min-width:992px) and (max-width: 1600px) and (orientation:landscape) {
+  nav {
+    user-select: none;
+    color: #415462;
+  }
+   nav .col-1{
+    flex: 1 0 0%;
+    text-align: center;
+   margin-top: 0;
+   user-select: none;
+   color: #4d606d;
+   }
+
+}
+
+
+
+
+
+
