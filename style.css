@@ -167,6 +167,14 @@ footer {
 
   }
 
+  .container3 {
+    width:100%;
+      margin-inline: auto;
+      padding-inline: 13rem;
+      text-align: center;
+  
+    }
+
 
 section {
   margin-block: 2rem;
@@ -464,6 +472,34 @@ padding-block: .5rem;
 
 
 
+
+/* navbar */
+/* no list decoration and straight */
+
+/* 
+
+nav ul:first-child > li {
+	display: inline-block;
+	margin: 0;
+  padding: 0.8rem .6rem;
+
+}
+
+.logo{
+  font-size: 1.5rem;
+  user-select: none;
+
+} */
+
+
+
+
+
+
+
+
+
+
 /* 
 I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy coding! */
 
@@ -544,6 +580,13 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
     padding-inline: 4rem;
     margin-inline: auto;
   }
+
+  .container3 {
+    width: 100%;
+    padding-inline: 4rem;
+    margin-inline: auto;
+    }
+
   }
 
   @media (min-width:992px) and (max-width: 1600px) and (orientation:landscape) {
@@ -558,6 +601,12 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
       padding-inline: 4rem;
       margin-inline: auto;
     }
+    .container3 {
+      width: 100%;
+      padding-inline: 4rem;
+      margin-inline: auto;
+      }
+
   }
 
 
@@ -597,5 +646,46 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
   }
   
   
+
+  
+   /* use + to select the first col-1 only, and > to select whatever is nested under smth, and ~ to select everything 
+with the same class under smth. */
+
+
+.righto{
+  text-align: right;
+}
+
+
+/* navbar style 1 */
+
+nav ul:first-child > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0.8rem .6rem;
+}
+
+@media (max-width: 40rem) {
+  nav ul:first-child{text-align: center;}
+  nav ul:first-child > li:first-child:after { content: " \2261";}
+  nav ul:first-child > li:not(:first-child):not(.sticky) { display: none; }
+  nav ul:first-child:hover > li:not(:first-child):not(.sticky) { display:block; float: none !important;   user-select: none;   color: #415462;}
+}
+
+/* navbar style2 */
+
+@media (max-width: 40rem) {
+nav {
+  user-select: none;
+  color: #415462;
+}
+ nav .col-1{
+  flex: 1 0 0%;
+  text-align: center;
+ margin-top: 0;
+ user-select: none;
+ color: #4d606d;
+ }
+}
 
 
