@@ -709,11 +709,14 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
     margin-left: 0;
   }
 
-  .row.col-center {
-  padding: 0;
-  margin: 0;
-  
+
+
+  .card {
+    align-content: center;
+    margin-left: 0;
+ 
   }
+  
 
 
 }
