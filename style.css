@@ -708,6 +708,13 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
   .push-11 {
     margin-left: 0;
   }
+
+  .row.col-center {
+    justify-content: left;
+  
+  }
+
+
 }
 
 
