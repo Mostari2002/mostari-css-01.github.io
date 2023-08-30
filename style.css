@@ -711,6 +711,123 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
 }
 
 
+@media (min-width:992px) and (max-width: 1600px) and (orientation:landscape) {
+
+
+  .col {
+    flex: 1 0 0%
+  }
+  
+  
+  .col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  
+  .col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%
+  }
+  
+  .col-3 {
+    flex: 0 0 auto;
+    width: 25%
+  }
+  
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%
+  }
+  
+  .col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%
+  }
+  
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%
+  }
+  
+  .col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%
+  }
+  
+  .col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%
+  }
+  
+  .col-9 {
+    flex: 0 0 auto;
+    width: 75%
+  }
+  
+  .col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%
+  }
+  
+  .col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%
+  }
+  
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%
+  }
+  
+  
+  
+  .push-1 {
+    margin-left: 8.33333333%
+  }
+  
+  .push-2 {
+    margin-left: 16.66666667%;
+  }
+  
+  .push-3 {
+    margin-left: 25%
+  }
+  
+  .push-4 {
+    margin-left: 33.33333333%
+  }
+  
+  .push-5 {
+    margin-left: 41.66666667%
+  }
+  
+  .push-6 {
+    margin-left: 50%
+  }
+  
+  .push-7 {
+    margin-left: 58.33333333%
+  }
+  
+  .push-8 {
+    margin-left: 66.66666667%
+  }
+  
+  .push-9 {
+    margin-left: 75%
+  }
+  
+  .push-10 {
+    margin-left: 83.33333333%
+  }
+  
+  .push-11 {
+    margin-left: 91.66666667%
+  }
+  
+
+}
+
 
 
 /* use + to select the first col-1 only, and > to select whatever is nested under smth, and ~ to select everything 
