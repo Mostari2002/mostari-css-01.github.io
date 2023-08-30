@@ -710,7 +710,8 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
   }
 
   .row.col-center {
-    justify-content: left;
+  padding-left: 0;
+  margin-left: 0;
   
   }
 
