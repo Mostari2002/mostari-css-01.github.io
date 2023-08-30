@@ -713,67 +713,29 @@ I will add prebuilt nav, cards, and accordions soon. Stay tuned, and happy codin
 
 @media (min-width:992px) and (max-width: 1600px) and (orientation:landscape) {
 
+ .col-1,
+  .col-2,
+  .col-3,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 
-  .col-1 {
-    flex: 0 0 auto;
-    width: 8.33333333%;
-  }
-  
-  .col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%
-  }
-  
-  .col-3 {
-    flex: 0 0 auto;
-    width: 25%
-  }
-  
-  .col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%
-  }
-  
-  .col-5 {
+ 
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7
+  {
     flex: 0 0 auto;
     width: 41.66666667%
   }
-  
-  .col-6 {
-    flex: 0 0 auto;
-    width: 50%
-  }
-  
-  .col-7 {
-    flex: 0 0 auto;
-    width: 58.33333333%
-  }
-  
-  .col-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%
-  }
-  
-  .col-9 {
-    flex: 0 0 auto;
-    width: 75%
-  }
-  
-  .col-10 {
-    flex: 0 0 auto;
-    width: 83.33333333%
-  }
-  
-  .col-11 {
-    flex: 0 0 auto;
-    width: 91.66666667%
-  }
-  
-  .col-12 {
-    flex: 0 0 auto;
-    width: 100%
-  }
-  
+ 
+
   
   .push-1,
   .push-2,
